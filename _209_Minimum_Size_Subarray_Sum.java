@@ -18,7 +18,6 @@ public class _209_Minimum_Size_Subarray_Sum {
                     sumCurr-=nums[left++];
                 }
             }
-
             return resLen==Integer.MAX_VALUE?0:resLen;
         }
     }
